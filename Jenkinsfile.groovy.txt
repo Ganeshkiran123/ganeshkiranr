@@ -24,7 +24,7 @@ pipeline {
 
                 docker run -d \
                 --name myapp \
-                -p 80:80 \
+                -p 8081:80 \
                 myapp:v1
                 '''
             }
