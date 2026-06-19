@@ -4,9 +4,10 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
+   stage('Clone') {
             steps {
-                echo 'Downloading code'
+                git url: 'https://github.com/Ganeshkiran123/ganeshkiranr.git',
+                    branch: 'main'
             }
         }
 
